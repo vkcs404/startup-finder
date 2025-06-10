@@ -16,16 +16,13 @@ O **Startup Finder Bot** é um projeto em Flask que utiliza o **LangChain** com 
 
 ## ▶️ Como Rodar Localmente
 
-### 1. Clone o repositório
-
 ```bash
+1. Clone o repositório
 git clone https://github.com/seuusuario/startup-finder-bot.git
 cd startup-finder-bot
 
 2. Instale as dependências
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 3. Configure a chave da API da OpenAI
 Crie uma chave gratuita ou paga em: https://platform.openai.com/account/api-keys
@@ -34,28 +31,20 @@ Depois, defina a variável de ambiente:
 
 Linux/MacOS
 
-bash
-Copiar
-Editar
+
 export OPENAI_API_KEY=sua-chave-aqui
 Windows (cmd)
 
-c
-Copiar
-Editar
+
 set OPENAI_API_KEY=sua-chave-aqui
 Ou crie um arquivo .env com o conteúdo:
 
-ini
-Copiar
-Editar
+
 OPENAI_API_KEY=sua-chave-aqui
 E use python-dotenv para carregar automaticamente se desejar.
 
 4. Rode o projeto
-bash
-Copiar
-Editar
+
 python app.py
 Abra seu navegador e acesse: http://localhost:5000
 
