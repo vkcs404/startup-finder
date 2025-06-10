@@ -14,21 +14,6 @@ O **Startup Finder Bot** é um projeto em Flask que utiliza o **LangChain** com 
 
 ---
 
-##  Estrutura do Projeto
-'''bash
-startup_finder_bot/
-├── app.py # Aplicação principal Flask
-├── langchain_module/
-│ └── analyzer.py # Módulo com análise de IA usando LangChain
-├── utils/
-│ └── heuristics.py # Heurísticas de pontuação
-├── templates/
-│ └── index.html # Interface HTML exibindo resultados
-├── requirements.txt # Dependências do projeto
-
-
----
-
 ## ▶️ Como Rodar Localmente
 
 ### 1. Clone o repositório
